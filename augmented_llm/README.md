@@ -1,6 +1,6 @@
 # Augmented LLM System
 
-A tool-enhanced conversational AI agent built with LangChain and LangGraph.
+A tool-enhanced conversational AI agent built with LangGraph.
 
 ## Overview
 
