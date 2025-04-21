@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "lang"
+version = "0.1.0"
+description = ""
+authors = ["Suman"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.12"
+langgraph = "^0.2.59"
+ipython = "^8.30.0"
+langchain = "^0.3.12"
+langchain-community = "^0.3.12"
+langchainhub = "^0.1.21"
+chromadb = "^0.5.23"
+langchain-groq = "^0.2.3"
+wikipedia = "^1.4.0"
+youtube-search = "^2.1.2"
+faiss-cpu = "^1.9.0.post1"
+scikit-learn = "^1.6.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+mypy = "^1.15.0"
+pyright = "^1.1.394"
+graphviz = "^0.20.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

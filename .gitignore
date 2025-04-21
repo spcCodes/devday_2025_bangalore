@@ -1,0 +1,21 @@
+# ignore files for python module
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# ignore files for venv
+.venv/
+
+# ignore files for pycharm
+.idea/
+
+.env
+
+# ignore files for docker
+
+augmented_llm/data/
+*.png
+.DS_Store
