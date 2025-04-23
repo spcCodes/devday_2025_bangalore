@@ -21,6 +21,5 @@ augmented_llm/data/
 .DS_Store
 
 *.excalidraw
+
 *.excalidrawlib
-
-
