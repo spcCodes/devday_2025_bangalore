@@ -23,3 +23,5 @@ augmented_llm/data/
 *.excalidraw
 
 *.excalidrawlib
+
+notebook/
