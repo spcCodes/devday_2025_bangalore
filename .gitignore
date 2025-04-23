@@ -19,3 +19,8 @@ __pycache__/
 augmented_llm/data/
 *.png
 .DS_Store
+
+*.excalidraw
+*.excalidrawlib
+
+
