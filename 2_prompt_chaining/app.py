@@ -46,3 +46,5 @@ display_graph(app)
 if __name__ == "__main__":
     result = app.invoke({"topic": "tell a joke about AI"})
     print("Joke: ", result["final_joke"])
+
+    print(result)
