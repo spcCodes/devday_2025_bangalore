@@ -59,7 +59,7 @@ app = workflow.compile()
 if __name__ == "__main__":
     # Initialize with a question using proper message format
     initial_state = AppState(
-        messages=[HumanMessage(content="What is the weather in Tokyo and can you add 15 to the temperature and then multiply by 10")],
+        messages=[HumanMessage(content="What is the weather in Bnagalore and can you add 15 to the temperature and then multiply by 10")],
         node_trace=[]
     )
     

@@ -1,4 +1,4 @@
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from typing import Annotated, List, TypedDict
 import operator
 from langchain_openai import ChatOpenAI

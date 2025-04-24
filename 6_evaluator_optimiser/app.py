@@ -15,7 +15,7 @@ def display_graph(app):
         # Use simpler approach without specific MermaidDrawMethod
         graph_png = app.get_graph().draw_mermaid_png()
         # Save the graph as PNG
-        with open("5_orchestrator_worker/workflow_graph.png", "wb") as f:
+        with open("6_evaluator_optimiser/workflow_graph.png", "wb") as f:
             f.write(graph_png)
         # Display the graph
         display(Image(graph_png))
